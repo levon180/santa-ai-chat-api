@@ -1,0 +1,35 @@
+{
+  "name": "santa-api",
+  "version": "1.0.0",
+  "description": "santa api",
+  "main": "dist/server.js",
+  "scripts": {
+    "start": "node dist/server.js",
+    "dev": "nodemon --exec ts-node server.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/ws": "^8.5.13",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "http": "^0.0.1-security",
+    "mongoose": "^8.8.1",
+    "nodemon": "^3.1.7",
+    "openai": "^4.71.1",
+    "rate-limiter-flexible": "^5.0.4",
+    "redis": "^4.7.0",
+    "ts-node": "^10.9.2",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.9.0",
+    "typescript": "^5.6.3"
+  }
+}
